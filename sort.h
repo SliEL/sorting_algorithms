@@ -54,6 +54,10 @@ void quick_sort(int *array, size_t size);
 /* ##### shell Sort ############## */
 void shell_sort(int *array, size_t size);
 
+/* ##### Counting Sort ######### */
+void counting_sort(int *array, size_t size);
+int find_max(int *array, int size);
+
 void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
 
