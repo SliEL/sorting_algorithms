@@ -58,6 +58,12 @@ void shell_sort(int *array, size_t size);
 void counting_sort(int *array, size_t size);
 int find_max(int *array, int size);
 
+/* ##### Merge Sort Algorithm ############### */
+void merge_subarr(int *subarr, int *buff, size_t right, size_t mid,
+		size_t left);
+void merge_sort_recursive(int *subarr, int *buff, size_t right, size_t left);
+void merge_sort(int *array, size_t size);
+
 void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
 
